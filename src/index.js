@@ -18,6 +18,7 @@ function component() {
 
   const btn = document.createElement('button');
   btn.innerHTML = 'Click me and check the console!';
+  btn.classList.add('btn');
   btn.onclick = printMe;
 
   container.appendChild(logo);

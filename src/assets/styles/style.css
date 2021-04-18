@@ -34,3 +34,13 @@ body {
   height: 50px;
   width: auto;
 }
+
+.btn {
+  border: none;
+  background: rgb(86, 183, 228);
+  border-radius: 6px;
+  text-align: center;
+  padding: 5px 1em;
+  color: #fff;
+  cursor: pointer;
+}

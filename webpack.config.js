@@ -6,6 +6,10 @@ module.exports = {
     index: './src/index.js',
     print: './src/print.js',
   },
+  devtool: 'inline-source-map',
+  devServer: {
+    contentBase: './dist',
+  },
   plugins: [
     new HtmlWebpackPlugin({
       title: 'Webpack demo',
@@ -16,6 +20,7 @@ module.exports = {
     filename: '[name].bundle.js',
     path: path.resolve(__dirname, 'dist'),
     clean: true,
+    publicPath: '/',
   },
   module: {
     rules: [

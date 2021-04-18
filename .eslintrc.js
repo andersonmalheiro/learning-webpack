@@ -11,5 +11,7 @@ module.exports = {
   },
   rules: {
     'import/no-unresolved': 'off',
+    'comma-dangle': 'off',
+    'no-console': 'off'
   },
 };
