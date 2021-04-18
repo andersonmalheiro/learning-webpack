@@ -1,0 +1,26 @@
+{
+  "name": "webpack-demo",
+  "version": "1.0.0",
+  "private": true,
+  "engines": {
+    "node": "^15.x.x",
+    "npm": "We don't do that here",
+    "yarn": "1.22.x"
+  },
+  "author": {
+    "name": "Anderson Malheiro",
+    "email": "malheiroanderson97@gmail.com",
+    "url": "https://github.com/andersonmalheiro"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --config webpack.config.js"
+  },
+  "devDependencies": {
+    "webpack": "^5.33.2",
+    "webpack-cli": "^4.6.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
